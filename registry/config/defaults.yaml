@@ -51,8 +51,8 @@ registry:
       #   rootdirectory: /var/lib/registry
       #   maxthreads: 100
       s3:
-        accesskey: AKIAIMH5BJVNSQQO2AYQ
-        secretkey: 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
+        accesskey: null
+        secretkey: null
         region: eu-west-1
         # regionendpoint: http://myobjects.local
         bucket: dev-chute
