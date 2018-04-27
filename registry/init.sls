@@ -8,10 +8,8 @@
   file.managed:
     - mode: 644
     - makedirs: True
-    - source: salt://abridge/files/slackbot_settings.py
-    - template: jinja
-    - contents: |-
-      {{ config.settings }}
+    - dataset: {{ config.settings }}
+    - format: yaml
 
 #
 # Docker image present
