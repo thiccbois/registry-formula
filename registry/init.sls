@@ -1,4 +1,4 @@
-{% from 'scantrust/map.jinja' import config with context %}
+{% from 'registry/map.jinja' import config with context %}
 
 
 #
